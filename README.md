@@ -74,7 +74,6 @@ FORK_BLOCK_NUMBER=19258000
 foundry.toml 内容：
 
 ```
-
 [profile.default]
 src = "contracts"
 out = "out"
@@ -92,13 +91,11 @@ cache_path  = "cache_forge"
 运行命令：
 
 ```
-
 forge test
 ```
 预期输出：
 
 ```
-
 [PASS] testIncrement() (gas: ...)
 [PASS] testSetNumber(uint256) (gas: ...)
 Suite result: ok. 2 passed; 0 failed; 0 skipped;
@@ -110,7 +107,6 @@ Suite result: ok. 2 passed; 0 failed; 0 skipped;
 运行命令：
 
 ```
-
 npx hardhat test test/fork-mainnet.test.ts
 ```
 **测试内容：**
@@ -126,7 +122,6 @@ npx hardhat test test/fork-mainnet.test.ts
 预期输出：
 
 ```
-
 -----------------------------------------
 Currently read RPC URL: ✅ Obtained
 Blocks in environment variables: 19258000
