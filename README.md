@@ -23,7 +23,7 @@ my-hardhat-project/
 
 ## 🛠 前置要求
 
-在开始之前，请确保你的系统安装了以下工具：
+在开始之前，请确保系统安装了以下工具：
 
 - Node.js: 推荐 v20 (LTS) 或更高版本。
 
@@ -31,10 +31,8 @@ my-hardhat-project/
 
 - Foundry: 用于运行 Solidity 单元测试。
 
-- 安装命令: 
-```
-curl -L https://foundry.paradigm.xyz | bash 然后运行 foundryup。
-```
+- 安装命令: `curl -L https://foundry.paradigm.xyz | bash` 然后运行 `foundryup`。
+
 
 ## 🚀 快速开始
 
@@ -51,7 +49,10 @@ npm install
 
 ```
 cp .env.example .env
-# 或者
+```
+或者
+
+```
 touch .env
 ```
 在 .env 文件中填入以下内容：
