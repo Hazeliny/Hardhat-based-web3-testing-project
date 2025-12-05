@@ -1,6 +1,6 @@
-# Hardhat & Foundry 混合开发 Web3 项目
+# 基于 Hardhat & Foundry 框架的 Web3 混合测试项目
 
-本项目是一个演示性质的 Web3 开发模板，结合了 **Foundry** 高效的 Solidity 单元测试与 **Hardhat** 强大的 TypeScript 集成测试环境。
+这是一个 Web3 混合测试项目，结合了 **Foundry** 高效的 Solidity 单元测试与 **Hardhat** 强大的 TypeScript 集成测试环境，涵盖智能合约单元测试与集成测试以及 fork mainnet链上交互验证的测试。
 
 项目主要包含：
 1.  **智能合约**：基础的计数器合约 (`Counter.sol`)。
@@ -42,8 +42,8 @@ curl -L https://foundry.paradigm.xyz | bash 然后运行 foundryup。
 
 ```
 npm install
-注意：本项目为了兼容旧版测试脚本，锁定了 ethers@5.7.2 和 chai@4.x。安装过程中出现 deprecated 警告属于正常现象，请忽略。
 ```
+注意：本项目为了兼容旧版测试脚本，锁定了 ethers@5.7.2 和 chai@4.x。安装过程中出现 deprecated 警告属于正常现象，请忽略。
 
 ### 2. 配置环境变量
 
