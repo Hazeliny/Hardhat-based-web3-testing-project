@@ -52,7 +52,7 @@ my-hardhat-project/
 
 ### 1. Install Dependencies
 
-```bash
+```
 npm install
 ```
 

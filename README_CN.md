@@ -1,4 +1,3 @@
-```md
 # 基于 Hardhat & Foundry 框架的 Web3 混合测试项目
 
 [English README](README.md) | 中文
@@ -12,7 +11,7 @@
 
 ## 📂 项目结构
 
-```text
+```
 my-hardhat-project/
 ├── contracts/               # Solidity 智能合约源文件 (Counter.sol)
 ├── forge-tests/             # Foundry 单元测试文件 (Counter.t.sol)
