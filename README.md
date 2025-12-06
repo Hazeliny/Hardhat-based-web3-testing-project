@@ -82,9 +82,22 @@ npx hardhat test --network hardhat
 **Expected output:**
 
 ```
-[PASS] testIncrement() (gas: ...)
-[PASS] testSetNumber(uint256) (gas: ...)
-Suite result: ok. 2 passed; 0 failed; 0 skipped;
+Running Solidity tests
+
+  contracts/Counter.t.sol:CounterTest
+    ✔ test_InitialValue()
+    ✔ test_IncByZero()
+    ✔ testFuzz_Inc(uint8) (runs: 256)
+
+  3 passing
+
+  Running Mocha tests 
+  
+  Counter 
+    ✔ Should emit the Increment event when calling the inc() function 
+    ✔ The sum of the Increment events should match the current value 
+    
+  2 passing (50ms)
 ```
 
 ### ▶ Foundry (Forge) Testing
